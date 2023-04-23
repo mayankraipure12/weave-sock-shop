@@ -12,7 +12,7 @@ type: ociImage
 version: 0.3.1
 access:
   type: ociArtefact
-  imageReference: docker.io/weaveworksdemos/queue-master:0.3.1
+  imageReference: weaveworksdemos/queue-master:0.3.1
 ---
 name: rabbitmq-management-image
 relation: external
@@ -20,7 +20,7 @@ type: ociImage
 version: 3.6.8-management
 access:
   type: ociArtefact
-  imageReference: docker.io/library/rabbitmq:3.6.8-management
+  imageReference: library/rabbitmq:3.6.8-management
 ---
 name: rabbitmq-exporter-image
 relation: external
@@ -28,7 +28,7 @@ type: ociImage
 version: 1.0.0-RC19
 access:
   type: ociArtefact
-  imageReference: docker.io/kbudde/rabbitmq-exporter:1.0.0-RC19
+  imageReference: kbudde/rabbitmq-exporter:1.0.0-RC19
 ---
 name: session-image
 relation: external
@@ -36,7 +36,7 @@ type: ociImage
 version: 7.0.5-alpine
 access:
   type: ociArtefact
-  imageReference: docker.io/library/redis:7.0.5-alpine
+  imageReference: library/redis:7.0.5-alpine
 ---
 name: manifests
 type: kustomize.ocm.fluxcd.io

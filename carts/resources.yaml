@@ -12,7 +12,7 @@ type: ociImage
 version: 0.4.8
 access:
   type: ociArtefact
-  imageReference: docker.io/weaveworksdemos/carts:0.4.8
+  imageReference: weaveworksdemos/carts:0.4.8
 ---
 name: db-image
 relation: external
@@ -20,7 +20,7 @@ type: ociImage
 version: 6.0.2
 access:
   type: ociArtefact
-  imageReference: docker.io/library/mongo:6.0.2
+  imageReference: library/mongo:6.0.2
 ---
 name: manifests
 type: kustomize.ocm.fluxcd.io

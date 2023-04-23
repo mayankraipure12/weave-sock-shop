@@ -12,7 +12,7 @@ type: ociImage
 version: 0.3.12
 access:
   type: ociArtefact
-  imageReference: docker.io/weaveworksdemos/front-end:0.3.12
+  imageReference: weaveworksdemos/front-end:0.3.12
 ---
 name: manifests
 type: kustomize.ocm.fluxcd.io

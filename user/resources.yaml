@@ -12,7 +12,7 @@ type: ociImage
 version: 0.4.7
 access:
   type: ociArtefact
-  imageReference: docker.io/weaveworksdemos/user:0.4.7
+  imageReference: weaveworksdemos/user:0.4.7
 ---
 name: db-image
 relation: external
@@ -20,7 +20,7 @@ type: ociImage
 version: 0.3.0
 access:
   type: ociArtefact
-  imageReference: docker.io/weaveworksdemos/user-db:0.3.0
+  imageReference: weaveworksdemos/user-db:0.3.0
 ---
 name: manifests
 type: kustomize.ocm.fluxcd.io
